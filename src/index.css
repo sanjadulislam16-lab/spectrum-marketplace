@@ -179,6 +179,10 @@ html.dark {
   .role-utility { display: none; }
 }
 
+@media (hover: none) {
+  .product-quick-actions { opacity: 1 !important; transform: translateY(0) !important; }
+}
+
 @media (max-width: 720px) {
   .container { width: min(100% - 1rem, 1240px); }
   .header-main { grid-template-columns: 1fr auto; min-height: 68px; gap: 12px; }
