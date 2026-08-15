@@ -1,0 +1,6 @@
+{
+  "name": "Sun Choice BD",
+  "description": "Sun Choice BD is a modern Bangladeshi e-commerce platform with dual Light & Dark themes, BDT (৳) currency, bilingual Bangla/English support, color code calibration, seller portal, and admin dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

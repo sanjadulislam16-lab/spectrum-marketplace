@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Spectrum. Marketplace</title>
+    <script>
+      const path = window.location.pathname;
+      const repo = '/spectrum-marketplace';
+      const route = path.startsWith(repo) ? path.slice(repo.length) : path;
+      window.location.replace(repo + '/?redirect=' + encodeURIComponent(route + window.location.search + window.location.hash));
+    </script>
+  </head>
+  <body>
+    <p>Redirecting to Spectrum. Marketplace…</p>
+  </body>
+</html>
